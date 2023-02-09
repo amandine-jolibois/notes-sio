@@ -192,7 +192,7 @@ public string resultatImg()
 
 >Les fonctions de la vue servent a la gestion des évènements
 
-Vérifications que tout les champs soient remplies et correctement pour éviter les éventuelles erreurs : 
+Vérifications que tout les champs soient remplies et correctement pour éviter les erreurs : 
 ```C#
 private void btCalculer_Click(object sneder, EventArgs e)
         {
