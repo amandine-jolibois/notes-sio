@@ -1,5 +1,5 @@
 ---
-{"dg-home":true,"dg-publish":true,"permalink":"/app-coach/mission-1/","tags":["gardenEntry"],"dgPassFrontmatter":true}
+{"dg-home":false,"dg-publish":true,"permalink":"/app-coach/mission-1/","dgPassFrontmatter":true}
 ---
 
 # Présentation du projet
