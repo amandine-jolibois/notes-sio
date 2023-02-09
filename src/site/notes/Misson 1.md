@@ -16,7 +16,7 @@ La création de l'interface se code en **XML**. via le fichier *activity_main.xm
 Celui est composer de plusieurs nœuds intitulé *LinearLayout* permettant de crée des cases afin d'y insérer les divers éléments dont nous avons besoin pour la construction de l'interface. 
 Par exemple, le code suivant permet de crée le *LinearLayout* composer des radios boutons :
 
-```
+```xml
 <LinearLayout
                 android:orientation="vertical"
                 android:minWidth="50px"
@@ -66,7 +66,7 @@ Le code est fait sous la forme d'un MVC (Modèle Vue Contrôleur).
 > Contient l'accès aux données, ici nous avions la classe **Profil** qui initialise les variables pour crée le profil de l'utilisateur (le poids, la taille, l'âge et le sexe).
 
 La classe est composer du constructeur : 
-```
+```C#
 		private int sexe;
         private int poids;
         private int taille;
