@@ -2,7 +2,7 @@
 {"dg-home":false,"dg-publish":true,"permalink":"/app-coach/mission-2/","dgPassFrontmatter":true}
 ---
 
-- [[Home\|Home]]
+- [[Accueil\|Accueil]]
 # Présentation de la mission 
 
 Pour cette mission nous devions **Sérialiser** les données de l'application. La sérialisation est un processus de conversion d’un objet en flux d’octets pour stocker l’objet ou le transmettre à la mémoire (l'enregistrement des données).
