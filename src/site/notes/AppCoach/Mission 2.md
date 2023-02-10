@@ -8,9 +8,9 @@
 Pour cette mission nous devions Sérializer les données de l'application. La sérialisation est un processus de conversion d’un objet en flux d’octets pour stocker l’objet ou le transmettre à la mémoire (l'enregistrement des données).
 Puis nous devions Désérializer les données. La désérialisation consiste à charger les données qui ont été sérializer.
 
-# Classe Sérializer
+# Classe Sérialiser
 
-Pour sérialiser nos données nous devions crées une *classe abstraite Sérializer* dans un dossier *outils*. 
+Pour sérialiser nos données nous devions crées une *classe abstraite Sérialiser* dans un dossier *outils*. 
 
 >Une classe abstraite est une classe qui n'est pas instanciable c'est à dire utiliser un *new* pour créer un nouvel objet.
 
