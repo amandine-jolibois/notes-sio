@@ -10,7 +10,7 @@ Pour cette mission nous devions réaliser une base de données SQLite, une petit
 
 # Modifications des classes
 
-Pour faire un suivi des données des profils, nous devons créer une nouvelle variable *date* de type *DateTime*.
+Pour faire un suivi des données des profils, nous devons créer une nouvelle variable *date* de type *DateTime* qui servira de clé primaire.
 
 >Modification du constructeur et rajout du getter dans la classe Profil. 
 
