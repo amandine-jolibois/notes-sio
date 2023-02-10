@@ -6,13 +6,13 @@
 # Présentation de la mission 
 
 Pour cette mission nous devions Sérializer les données de l'application. La sérialisation est un processus de conversion d’un objet en flux d’octets pour stocker l’objet ou le transmettre à la mémoire (l'enregistrement des données).
-Puis nous devions Désérializer les données. La désérialisation consiste à charger les données qui ont étaient sérializer.
+Puis nous devions Désérializer les données. La désérialisation consiste à charger les données qui ont été sérializer.
 
 # Classe Sérializer
 
-Pour sérializer nos données nous devions crée une *classe abstraite Sérializer* dans un dossier *outils*. 
+Pour sérialiser nos données nous devions crées une *classe abstraite Sérializer* dans un dossier *outils*. 
 
->Une classe abstraite est une classe qui n'est pas instanciable c'est à dire utiliser un *new* pour crée un nouvel objet.
+>Une classe abstraite est une classe qui n'est pas instanciable c'est à dire utiliser un *new* pour créer un nouvel objet.
 
 - Méthode pour la sérialisation : 
 ```C#
@@ -79,15 +79,15 @@ public static Object deserialize(string nomFichier)
 
 # Modifications des autres classes
 
-Pour que la sérialisation fonctionne correctement il y a quelques modifications a effectuées sur les autres classes. 
+Pour que la sérialisation fonctionne correctement il y a quelques modifications a effectuer sur les autres classes. 
 
 - Juste avant la déclaration de la classe Profil : 
 ```C#
 [Serializable]
 ```
-> Indique quels objets sont sérialisables.
+>Indique quels objets sont sérialisables.
 
-- Dans la classe controle, il faut crée une propriété statique pour stocker le nom du fichier à utiliser pour la sérialisation :
+- Dans la classe contrôle, il faut créé une propriété statique pour stocker le nom du fichier à utiliser pour la sérialisation :
 ```C#
 private static string monFichier = "saveprofil";
 ```
@@ -114,7 +114,7 @@ public static Controle Getinstance()
         }
 ```
 
-- Puis, nous faisait des getter pour la sérialisation : 
+- Puis, nous faisons des getters pour la sérialisation : 
 ```C#
 public int GetSexe()
         {
@@ -167,4 +167,4 @@ private void RecupProfil()
         }
 ```
 
->Cette méthode permet de valorisé les éléments affichés grâce aux données récupérées dans le contrôleur. Il faut donc appeler la méthode dans le *Init*. 
+>Cette méthode permet de valoriser les éléments affichés grâce aux données récupérées dans le contrôleur. Il faut donc appeler la méthode dans le *Init*. 
