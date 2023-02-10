@@ -13,7 +13,7 @@ L'application utilise Xamarin sur Visual studio code 2019 coder en C#.
 # Interface graphique
 
 La création de l'interface se code en **XML**. via le fichier *activity_main.xml*.
-Celui est composer de plusieurs nœuds intitulé *LinearLayout* permettant de crée des cases afin d'y insérer les divers éléments dont nous avons besoin pour la construction de l'interface. 
+Celui-ci est composer de plusieurs nœuds intitulé *LinearLayout* permettant de crée des cases afin d'y insérer les divers éléments dont nous avons besoin pour la construction de l'interface. 
 Par exemple, le code suivant permet de crée le *LinearLayout* composer des radios boutons :
 
 ```xml
