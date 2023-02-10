@@ -2,7 +2,7 @@
 {"dg-home":false,"dg-publish":true,"permalink":"/app-coach/mission-1/","dgPassFrontmatter":true}
 ---
 
-- [[Home\|Home]]
+- [[Accueil\|Accueil]]
 # Présentation du projet
 
 AppCoach est une application Android qui a pour but de calculer l'IMG (Indice de Masse Grasse) et indique notre corpulence (trop maigre, parfait, surpoids).
