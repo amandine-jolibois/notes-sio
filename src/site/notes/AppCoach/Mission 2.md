@@ -2,11 +2,11 @@
 {"dg-home":false,"dg-publish":true,"permalink":"/app-coach/mission-2/","dgPassFrontmatter":true}
 ---
 
-
+- [[Home\|Home]]
 # Présentation de la mission 
 
-Pour cette mission nous devions Sérializer les données de l'application. La sérialisation est un processus de conversion d’un objet en flux d’octets pour stocker l’objet ou le transmettre à la mémoire (l'enregistrement des données).
-Puis nous devions Désérializer les données. La désérialisation consiste à charger les données qui ont été sérializer.
+Pour cette mission nous devions **Sérialiser** les données de l'application. La sérialisation est un processus de conversion d’un objet en flux d’octets pour stocker l’objet ou le transmettre à la mémoire (l'enregistrement des données).
+Puis nous devions Désérialiser les données. La désérialisation consiste à charger les données qui ont été sérialiser.
 
 # Classe Sérialiser
 
