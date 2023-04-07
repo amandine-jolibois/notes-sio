@@ -11,4 +11,4 @@
 # Épreuve pratique 
 
 - [[Épreuve pratique/Cas - SiteFranceMobilier\|Cas - SiteFranceMobilier]]
-- [[Épreuve pratique/Cas - SIOShop\|Cas - SIOShop]]
+- [[Épreuve pratique/Cas - SioShop\|Cas - SioShop]]
