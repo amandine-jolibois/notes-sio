@@ -6,6 +6,7 @@
 
 # Mission A :
 #MissionA
+
 ![Pasted image 20230407131116.png](/img/user/Pasted%20image%2020230407131116.png)
 
 ## Création du métier Gamme 
@@ -37,8 +38,6 @@ Permettant d'initialiser les variables de la base de données de la table gamme.
     }
 ?>
 ```
-
-
 
 
 ## Création du modèle gamme 
@@ -90,7 +89,6 @@ Permettant de crée les deux fonctions *GetListe()* et *GetGam()* :
 ```
 
 
-
 ## Modification de la vue menu 
 
 >Ajout de la liste déroulante dans le menu :
@@ -106,7 +104,6 @@ Permettant de crée les deux fonctions *GetListe()* et *GetGam()* :
 ```
 
 
-
 ## Modification du contrôleur menu 
 
 >Ajoute les données dans la liste déroulante : 
@@ -114,7 +111,6 @@ Permettant de crée les deux fonctions *GetListe()* et *GetGam()* :
 ```php
 $data['lesGammes']=$this->modele_gamme->GetListe();
 ```
-
 
 
 ## Modification du contrôleur consulter produit 
@@ -136,7 +132,6 @@ $this->data['laGamme']=$this->modele_gamme->GetGam($idGamme);
 ```php
 $this->data['lesProduits']=$this->modele_produit->GetListe($idCategorie,$idGamme);
 ```
-
 
 
 ## Modification du modèle produit / vue listePdt
@@ -179,7 +174,6 @@ if (is_null($this->data['laCategorie']) && is_null($this->data['laGamme']))
 ```
 
 
-
 ## Modification de l'index 
 
 >Ajout du paramètre $\_Get['gam'] dans l'appelle de la fonction :
@@ -192,6 +186,7 @@ $controleur->action_listeProduits($_GET['categ'], $_GET['gam']);
 
 # Mission B 
 #MissionB
+
 ![Pasted image 20230407133252.png](/img/user/Pasted%20image%2020230407133252.png)
 
 ## Modifications de la base de données 
@@ -200,7 +195,7 @@ $controleur->action_listeProduits($_GET['categ'], $_GET['gam']);
 
 ```SQL
 ALTER TABLE abonne ADD gamPref INT;
-ALTER TABLE abonne ADD CONSTRAINT FOREIGN KEY gamPref REFERENCES gamme(gam_id);
+ALTER TABLE abonne ADD CONSTRAINT FOREIGN KEY (gamPref) REFERENCES gamme(gam_id);
 ```
 
 ## Modification de la vue saisie Abonne
@@ -236,7 +231,7 @@ public function GetGamPref()
 
 
 
-## Modification du modèle Adonne / contrôleur Ajouter Abonne
+## Modification du modèle Adonne / contrôleur AjouterAbonne
 
 >Ajout des paramètres gamPref :
 
