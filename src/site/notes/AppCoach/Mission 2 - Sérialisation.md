@@ -168,3 +168,7 @@ private void RecupProfil()
 ```
 
 >Cette méthode permet de valoriser les éléments affichés grâce aux données récupérées dans le contrôleur. Il faut donc appeler la méthode dans le *Init*. 
+
+
+- [[AppCoach/Mission 1 - Interface Graphique\|Mission 1 - Interface Graphique]]
+- [[AppCoach/Mission 3 - SQLite\|Mission 3 - SQLite]]
