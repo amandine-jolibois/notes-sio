@@ -147,3 +147,7 @@ public Profil RecupDernierProfil()
 - Cette méthode utilise un curseur pour pouvoir parcourir le résultat de la requête et atteindre le dernier résultat. 
 
 >Il ne faut pas oublier de faire appel aux méthodes dans la classe contrôle.
+
+
+- [[AppCoach/Mission 1 - Interface Graphique\|Mission 1 - Interface Graphique]]
+- [[AppCoach/Mission 2 - Sérialisation\|Mission 2 - Sérialisation]] 
